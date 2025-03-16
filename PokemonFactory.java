@@ -1,7 +1,7 @@
-import java.util.*
+import java.util.*;
 
 public class PokemonFactory{
-    public static Map<String, Pokemon> createMap (int opcion) {
+    public static Map<String, Map<String, String>> createMap (int opcion) {
         switch (opcion) {
             case 1:
                 return new HashMap<>();
